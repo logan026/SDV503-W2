@@ -49,3 +49,6 @@ score = 10; // OK - reassignment allowed for let
 const max = 100; // max = 200; This will cause an error because max is a constant
 
 let address = "29 Woodstock Place";
+let userAge = 24;
+
+console.log(address + " " + userAge);
