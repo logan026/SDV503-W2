@@ -30,6 +30,7 @@ console.log("random time!!! your first random number is " + A + " your random op
 var name = "alice";
 var age = 30;
 const PI = 3.14159;
-,et sckre = 0;
+let sckre = 0;
 score = 10;
 const max = 100;
+// max = 200; This will cause an error because max is a constant
