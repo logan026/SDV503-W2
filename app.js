@@ -51,4 +51,15 @@ const max = 100; // max = 200; This will cause an error because max is a constan
 let address = "29 Woodstock Place";
 let userAge = 24;
 
-console.log(address + " " + userAge);
+console.log(typeof userAge);
+// Arithmetic
+// 5 + 3 = 8       10 - 4 = 6       6 * 7 = 42      20 / 5 = 4
+// 10 % 3 = 1      2 ** 4 = 16
+// comparison
+// 5 > 3 = true    10 < 4 = false   6 >= 7 = false   20 <= 5 = false
+// 5 == "5" = true  5 === "5" = false (strict equality)
+// Logical
+// true && false = false   true || false = true   !true = false
+//assignment shorthands
+// let x = 10; x += 5; // x is now 15
+
