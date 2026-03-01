@@ -9,6 +9,19 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <button onclick="alert('Button clicked!')">Click Me</button>
+        
+        <label for ="lottery">Lottery Number: </label>
+        <input type="text" id="lottery" inputmode="numeric" pattern="[0-9]*">
+        <button onclick="CheckLotto()">Check Lottery</button>
+        <script>
+            function CheckLotto() {
+                const lotteryNumber = document.getElementById("lottery").value;
+                if (lotteryNumber === A) {
+                    alert("Congratulations! You won the lottery!");
+                } else {
+                    alert("Sorry, better luck next time.");
+                }
+            }
+        </script>
     </body>
 </html>
