@@ -26,20 +26,7 @@ if (operator === "+") {
     X = A / B;
 }
 console.log("random time!!! your first random number is " + A + " your random operator is " + operator + " and your second random number is " + B + " and the result of the operation is " + X);
-function CheckLotto() {
-    A = Math.floor(Math.random() * 5) + 1;
-    console.log("Generated Lottery Number: " + A);
-    const lotteryNumber = document.getElementById("lottery").value;
-    if (isNaN(lotteryNumber) || lotteryNumber < 1 || lotteryNumber > 5) {
-        alert("Please enter a valid number between 1 and 5.");
-        return;
-    }
-    if (lotteryNumber === A.toString()) {
-        alert("Congratulations! You won the lottery!");
-    } else {
-        alert("Sorry, better luck next time.");
-            }
-    }
+
 
 var name = "alice"; // Function - scoped, hoisted - avoid using in modern JavaScript
 let age = 30; //Block scoped, can be reasigned
@@ -62,4 +49,18 @@ console.log(typeof userAge);
 // true && false = false   true || false = true   !true = false
 //assignment shorthands
 // let x = 10; x += 5; // x is now 15
+const msg = "Hello, World!";
+msg.length; // 13
+msg.toUpperCase(); // "HELLO, WORLD!"
+msg.toLowerCase(); // "hello, world!"
+msg.includes("World"); // true
+msg.startsWith("Hello"); // true
+msg.indexOf("World"); // 7
+msg.slice(7, 12); // "World"
+msg.replace("World", "JavaScript"); // "Hello, JavaScript!"
+msg.split(", "); // ["Hello", "JavaScript!"]
+" hi ".trim(); // "hi"
+console.log(msg.split());
+
+console.log(`The length of the message is ${msg.length} characters.`);
 

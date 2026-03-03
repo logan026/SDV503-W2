@@ -9,11 +9,28 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <label for ="name">What is your name? </label>
+        <input type="text" id="name">
+        <button onclick="greet()">Greet</button>
+        <p id="greeting">Greeting will appear here.</p>
+        <script src="greeting.js">
+        </script>
         
         <label for ="lottery">Pick a lucky number between 1-5. Lottery Number: </label>
         <input type="text" id="lottery" inputmode="numeric" pattern="[1-5]">
         <button onclick="CheckLotto()">Check Lottery</button>
-        <script src="app.js">
+        <p id="lotteryResult">Lottery Result</p>
+        <script src="lottery.js">
+        </script>
+        <label for ="num1">Enter a number </label>
+        <input type="text" id="num1" inputmode="numeric">
+        <label for ="operator">and a mathematical operator (+, -, *, /) </label>
+        <input type="text" id="operator" inputmode="numeric">
+        <label for="num2">and another number </label>
+        <input type="text" id="num2" inputmode="numeric">
+        <button onclick="calculate()">Calculate</button>
+        <p id="result">Result: </p>
+        <script src="calculator.js">
         </script>
     </body>
 </html>
